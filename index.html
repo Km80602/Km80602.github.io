@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Kiara Melberg - Portfolio</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
     * {
         margin: 0;
@@ -32,7 +36,6 @@ layout: default
     header h1 {
         font-size: 3rem;
         font-weight: 700;
-        letter-spacing: 1px;
     }
 
     .container {
@@ -82,7 +85,6 @@ layout: default
         color: #2563eb;
         text-decoration: none;
         font-weight: 500;
-        transition: 0.2s;
     }
 
     .links a:hover {
@@ -94,35 +96,67 @@ layout: default
         color: #2563eb;
         text-decoration: none;
     }
-
-    .contact a:hover {
-        color: #0f766e;
-    }
 </style>
 </head>
+
 <body>
+
+<header>
+    <h1>Kiara Melberg</h1>
+</header>
 
 <div class="container">
 
+    <!-- ABOUT -->
     <div class="card">
         <h2>About Me</h2>
         <p>
             I'm a student at Saint Xavier University, working toward a B.S. in Chemistry
-            (Physical Chemistry concentration) and Computer Science with a minor in Mathematics, graduating in December 2026.
-            I’m building experience in STEM fields through academics, projects, and hands-on learning, and preparing for graduate
-            school in engineering.
+            (Physical Chemistry concentration) and Computer Science with a minor in Mathematics,
+            graduating in December 2026. I’m building experience in STEM fields through academics,
+            projects, and hands-on learning, and preparing for graduate school in engineering.
         </p>
     </div>
 
+    <!-- RESUME -->
     <div class="card">
         <h2>My Resume</h2>
         <a class="button" href="{{ '/KMResume.pdf?v=2' | relative_url }}" target="_blank">
-            View My Resume
+            View My Updated Resume
         </a>
     </div>
 
+    <!-- IN-CLASS PROJECT (REQUIRED SECTION) -->
     <div class="card">
-        <h2>Links to My Repositories</h2>
+        <h2>In-Class Project</h2>
+
+        <p>
+            <strong>Project Description:</strong><br>
+            This project was developed as part of my coursework to apply programming fundamentals,
+            web development skills, and software design concepts in a structured environment.
+            It demonstrates my ability to build and organize a functional application using real development tools.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Tech Stack:</strong><br>
+            HTML, CSS, JavaScript, GitHub Pages (or update if different)
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Live App:</strong><br>
+            <a href="https://YOUR-LIVE-RAILWAY-OR-GITHUB-URL" target="_blank" class="button">
+                🚀 View Live App
+            </a>
+        </p>
+    </div>
+
+    <!-- GITHUB PROJECTS -->
+    <div class="card">
+        <h2>GitHub Projects</h2>
         <div class="links">
             <a href="https://github.com/Nick-Limber/Health-Alert">Health Alert - Android App</a>
             <a href="https://github.com/Km80602/cmpsc390-H1">CMPSC390 - H1</a>
@@ -131,6 +165,7 @@ layout: default
         </div>
     </div>
 
+    <!-- CONTACT -->
     <div class="card contact">
         <h2>Contact Information</h2>
         <p>Email: <a href="mailto:melberg.k01@mymail.sxu.edu">melberg.k01@mymail.sxu.edu</a></p>
@@ -141,34 +176,3 @@ layout: default
 
 </body>
 </html>
-
-
-
-<!-- OLD VERSION
-<h2>About Me</h2>
-<p> Hello! My name is <strong>Kiara Melberg</strong>. I'm a student at Saint Xavier University, working toward a B.S. in Chemistry (Concentration: Physical Chemistry)
-  and Computer Science with a minor in Mathematics, graduating in December 2026. Throughout my time 
-  at SXU, I've been able to grow both as a student and an aspiring professional. I'm currently preparing to
-  apply for graduate school in engineering and looking for opportunities to apply what I've learned and 
-  gain hands-on experience in the STEM field.
-</p>
-
-<h2>My Resume</h2>
-<p>
-  <a href="{{ '/KMResume.pdf?v=2' | relative_url }}" target="_blank"
-     style="background-color:darkblue; color:white; padding:10px 20px;
-            text-decoration:none; border-radius:6px; display:inline-block;"
-    >
-    View My Resume
-  </a>
-</p>
-
-<h2>Links to My Repositories</h2>
-<p><a href="https://github.com/Nick-Limber/Health-Alert">Health Alert - Android App</a></p>
-<p><a href="https://github.com/Km80602/cmpsc390-H1"> CMPSC390 - H1 </a></p>
-<p><a href="https://github.com/Km80602/cmpsc390-Lab1"> CMPSC390 - Lab 1 </a></p>
-<p><a href="https://github.com/Km80602/cmpsc390-lab0"> CMPSC390 - Lab 0 </a></p>
-
-<h2>Contact Information</h2>
-<p>Email: <a href="mailto:melberg.k01@mymail.sxu.edu">melberg.k01@mymail.sxu.edu</a></p>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/kiara-melberg/">https://www.linkedin.com/in/kiara-melberg/</a> </p>
