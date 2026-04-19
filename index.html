@@ -90,10 +90,13 @@ layout: default
         padding-left: 5px;
     }
 
-    .subtitle {
-        font-size: 0.95rem;
-        color: #6b7280;
-        margin-top: 5px;
+    .contact a {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .contact a:hover {
+        color: #0f766e;
     }
 </style>
 </head>
@@ -108,7 +111,7 @@ layout: default
     <div class="card">
         <h2>About Me</h2>
         <p>
-            Hello! My name is Kiara Melberg. I'm a student at Saint Xavier University, working toward a B.S. in Chemistry
+            I'm a student at Saint Xavier University, working toward a B.S. in Chemistry
             (Physical Chemistry concentration) and Computer Science with a minor in Mathematics, graduating in December 2026.
             I’m building experience in STEM fields through academics, projects, and hands-on learning, and preparing for graduate
             school in engineering.
@@ -117,24 +120,35 @@ layout: default
 
     <div class="card">
         <h2>My Resume</h2>
-        <a class="button" href="#">View My Resume</a>
+        <a class="button" href="{{ '/KMResume.pdf?v=2' | relative_url }}" target="_blank">
+            View My Resume
+        </a>
     </div>
 
     <div class="card">
         <h2>Links to My Repositories</h2>
         <div class="links">
-            <a href="#">Health Alert - Android App</a>
-            <a href="#">CMPSC390 - H1</a>
-            <a href="#">CMPSC390 - Lab 1</a>
-            <a href="#">CMPSC390 - Lab 0</a>
+            <a href="https://github.com/Nick-Limber/Health-Alert">Health Alert - Android App</a>
+            <a href="https://github.com/Km80602/cmpsc390-H1">CMPSC390 - H1</a>
+            <a href="https://github.com/Km80602/cmpsc390-Lab1">CMPSC390 - Lab 1</a>
+            <a href="https://github.com/Km80602/cmpsc390-lab0">CMPSC390 - Lab 0</a>
         </div>
+    </div>
+
+    <div class="card contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:melberg.k01@mymail.sxu.edu">melberg.k01@mymail.sxu.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kiara-melberg/">linkedin.com/in/kiara-melberg</a></p>
     </div>
 
 </div>
 
 </body>
 </html>
-<!--
+
+
+
+<!-- OLD VERSION
 <h2>About Me</h2>
 <p> Hello! My name is <strong>Kiara Melberg</strong>. I'm a student at Saint Xavier University, working toward a B.S. in Chemistry (Concentration: Physical Chemistry)
   and Computer Science with a minor in Mathematics, graduating in December 2026. Throughout my time 
