@@ -1,7 +1,140 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kiara Melberg - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
 
+    body {
+        background: #f5f7fb;
+        color: #1f2937;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0f766e, #2563eb);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: -40px auto 40px;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 16px;
+        padding: 30px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+        color: #0f766e;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: #374151;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background: #1d4ed8;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+    .button:hover {
+        background: #2563eb;
+        transform: translateY(-2px);
+    }
+
+    .links a {
+        display: block;
+        padding: 10px 0;
+        color: #2563eb;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.2s;
+    }
+
+    .links a:hover {
+        color: #0f766e;
+        padding-left: 5px;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin-top: 5px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Kiara Melberg</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Kiara Melberg. I'm a student at Saint Xavier University, working toward a B.S. in Chemistry
+            (Physical Chemistry concentration) and Computer Science with a minor in Mathematics, graduating in December 2026.
+            I’m building experience in STEM fields through academics, projects, and hands-on learning, and preparing for graduate
+            school in engineering.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>My Resume</h2>
+        <a class="button" href="#">View My Resume</a>
+    </div>
+
+    <div class="card">
+        <h2>Links to My Repositories</h2>
+        <div class="links">
+            <a href="#">Health Alert - Android App</a>
+            <a href="#">CMPSC390 - H1</a>
+            <a href="#">CMPSC390 - Lab 1</a>
+            <a href="#">CMPSC390 - Lab 0</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+<!--
 <h2>About Me</h2>
 <p> Hello! My name is <strong>Kiara Melberg</strong>. I'm a student at Saint Xavier University, working toward a B.S. in Chemistry (Concentration: Physical Chemistry)
   and Computer Science with a minor in Mathematics, graduating in December 2026. Throughout my time 
